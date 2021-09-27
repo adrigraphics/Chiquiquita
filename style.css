@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+
+p,
+a {
+    font-family: 'IBM Plex Mono', monospace;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+
+.navbar {
+    padding: 0 10%;
+}
+
+.navbar-toggler {
+    border-radius: 0px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.fadeindown {
+    animation: fadeInDown;
+    animation-duration: 2s;
+}
+
+.fadein {
+    animation: fadeIn;
+    animation-duration: 2s;
+}
+
+.heartbeat{
+    animation: heartBeat;
+    animation-duration: 1s;
+    animation-delay: 2s;
+}
+
+/* #hero {
+    height: 55vh;
+    background-color: ;
+    background: linear-gradient(#5F00BAdd, #131112dd), url("assets/img/Portafolio-01.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#hero .title {
+    color: white;
+    font-size: 55px;
+    font-weight: 700;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+} */
+
+body {
+    background-color: #000;
+}
+
+#logo {
+    width: 200px;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+#landing-box {
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    justify-content: center!important;
+    box-shadow: #000;
+}
+
+#intro {
+    padding-top: 60px;
+}
+
+
+
+
+
+@media (max-width: 575px) {
+    /* #hero .title {
+        color: white;
+        font-size: 35px;
+        font-weight: 700;
+        padding: 10px 20px;
+        border: 1px solid #fff;
+    } */
+
+#intro {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#landing-box {
+    margin: 10px;
+}
+
+}
+
+
+
+#galeria {
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+
+#galeria a {
+    color: #000;
+
+}
+
+#galeria .title {
+    padding-top: 20px;
+    color: #000;
+}
+
+#galeria .detail {
+    color: #0000008c;
+    font-size: 12px;
+
+}
+
+#galeria .project {
+    padding: 15px;
+}
+
+#galeria .project:hover {
+    box-shadow: 3px 3px 15px #00000033;
+    animation: pulse;
+    animation-duration: 1s;
+}
+
+#galeria .project .img {
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+}
+
+#galeria .foto {
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+#galeria .project .img-1 {
+    background-image: url("./assets/img/placeholder.jpg");
+}
+
+#galeria .project .img-2 {
+    background-image: url("./assets/img/placeholder.jpg");
+}
+
+#galeria .project .img-3 {
+    background-image: url("./assets/img/placeholder.jpg");
+}
+
+#galeria .project .img-4 {
+    background-image: url("./assets/img/placeholder.jpg");
+}
+
+#galeria .project .img-5 {
+    background-image: url("./assets/img/placeholder.jpg");
+}
+
+#galeria .project .img-6 {
+    background-image: url("./assets/img/placeholder.jpg");
+}
+
+#galeria .project .img-7 {
+    background-image: url("./assets/img/placeholder.jpg");
+}
+
+#galeria .project .img-8 {
+    background-image: url("./assets/img/placeholder.jpg");
+}
+
+#galeria .project .img-9 {
+    background-image: url("./assets/img/placeholder.jpg");
+}
+
+
+
+.a-white {
+    color: white;
+}
+
+.a-white:hover {
+    color: #ffffffaa !important;
+}
+
+.sans {
+    font-family: 'Work Sans', sans-serif !important;
+}
+
+.boton {
+    border: 1px solid #00000033;
+    background-color: #fff;
+    color: black !important;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.boton:hover {
+    animation: pulse;
+    animation-duration: 1s;
+}
+
+
+
